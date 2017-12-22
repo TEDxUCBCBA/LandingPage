@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/home/Home.vue'
-import Registration from '@/components/registration/Registration.vue'
+import Form from '@/components/form/Form.vue'
 
 Vue.use(Router)
 
@@ -14,9 +14,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/register',
-      name: 'registration',
-      component: Registration
+      path: '/form',
+      name: 'Form',
+      component: Form
     }
   ]
 })
